@@ -1,0 +1,10 @@
+---
+library: false
+warnOnImplicitThis: false
+name: advanced-security-demo/java-custom-queries
+version: 0.0.1
+buildMetadata:
+  sha: 5b1f0aba928a7f55bf36b8ca931c2af78506e411
+  cliVersion: 2.13.3
+dependencies:
+  codeql/java-all: ^0.6.2

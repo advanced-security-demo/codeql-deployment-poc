@@ -1,0 +1,22 @@
+---
+library: true
+warnOnImplicitThis: true
+name: codeql/java-all
+version: 0.6.2
+buildMetadata:
+  sha: ff78ac98d27c7b9f1adffcf235c56855f8348ad0
+  cliVersion: 2.13.3
+dependencies:
+  codeql/regex: 0.0.13
+  codeql/tutorial: 0.0.10
+  codeql/typetracking: 0.0.10
+  codeql/util: 0.0.10
+dbscheme: config/semmlecode.dbscheme
+extractor: java
+upgrades: upgrades
+groups:
+ - java
+dataExtensions:
+ - ext/*.model.yml
+ - ext/generated/*.model.yml
+ - ext/experimental/*.model.yml
