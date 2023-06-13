@@ -26,5 +26,4 @@ jobs:
         run: |
           gh codeql resolve qlpacks
           gh codeql pack install java-custom-queries
-          gh codeql pack install java-custom-tests
           gh codeql pack publish 
