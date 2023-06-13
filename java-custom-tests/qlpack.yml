@@ -1,0 +1,8 @@
+---
+library: false
+warnOnImplicitThis: false
+name: advanced-security-demo/java-custom-tests
+version: 0.0.1
+extractor: java
+dependencies:
+ "advanced-security-demo/java-custom-queries": "*"

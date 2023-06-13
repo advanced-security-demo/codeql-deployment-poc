@@ -1,0 +1,2 @@
+| test.java:5:5:5:32 | for (...;...;...) | test.java:5:21:5:26 | ... > ... | test.java:5:29:5:31 | ...++ | test.java:5:10:5:18 | int i |
+| test.java:9:5:9:32 | for (...;...;...) | test.java:9:22:9:26 | ... < ... | test.java:9:29:9:31 | ...-- | test.java:9:10:9:19 | int j |
