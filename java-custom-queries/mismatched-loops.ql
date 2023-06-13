@@ -24,4 +24,4 @@ where
     comparison.getLesserOperand() = v.getAnAccess() and
     not isInc(update)
   )
-select for, comparison, update, v
+select for, "mismatched loops"
